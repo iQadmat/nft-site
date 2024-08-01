@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: #2b283a;
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+button {
+  margin-right: 1rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 0.625rem 1.2rem;
+  font-size: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+button:hover,
+button:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+.btn-dark {
+  background-color: #5f29a3;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+.btn-mid {
+  background-color: #f0e0ff;
+  color: #5f29a3;
+}
+.btn-light {
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
+
+/* Layout */
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+/* Header */
+header h1 {
+  color: whitesmoke;
+  font-size: 2.25rem;
+}
+header h3 {
+  color: #d0aaff;
+  font-size: 1.25rem;
+}
+
+/* Section 1 */
+#section1 img {
+  width: 100%;
+  margin: 1rem 0;
+}
+
+/* Section 2 */
+#section2 {
+  color: whitesmoke;
+}
+.container .imgs {
+  display: flex;
+  justify-content: space-between;
+}
+#section2 img {
+  width: 300px;
+  border-radius: 0.3rem;
+}
+
+/* Footer */
+footer {
+  color: #5f29a3;
+  text-align: center;
+}
+
+/* Combinations */
+header,
+#section1,
+#section2,
+footer {
+  padding: 1rem 0;
+}
+
+header,
+#section2 {
+  background-color: #5f29a3;
+}
